@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html>
+     
+<style> 
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+    }   
+    button { 
+        background-color: #3399ff; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 100%; 
+    }      
+    .imgcontainer { 
+        text-align: left; 
+        margin: 12px 0 12px 0; 
+    } 
+    img.avatar { 
+        width: 10%; 
+        border-radius: 20%; 
+    }  
+    .container { 
+        padding: 16px; 
+    } 
+    span.psw { 
+        float: left; 
+        padding-top: 16px; 
+    } 
+	span.reg{
+		float:right;
+	}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    .navbar-dark {
+     background-color: #1db8f5f1;
+    }
+    @media screen and (max-width: 300px) { 
+        span.psw { 
+            display: block; 
+            float: none; 
+        }
+		span.reg{
+			display: block;
+			float: none;
+		}
+    } 
+</style> 
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>  
+<body> 
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <span class="fa fa-graduation-cap fa-lg" style="float: left;"></span>
+        <ul>
+            <li style="color: floralwhite; text-align: center;"><b>Sign In</b></li>
+        </ul>
+    </nav>
+
+    <form>
+        <div class="container"> 
+            <input type="text" placeholder="mail@example.com" name="uname" required>
+            <input type="password" placeholder="Password" name="psw" required> 
+            <button type="submit" style="color: floralwhite;">SIGN IN</button> 
+        </div> 
+  
+        <div class="container"> 
+            <span class="psw"><a href="#">Forgot your password?</a></span> 
+        </div>
+		<div class="container"> 
+            <span class="reg"><a href="#">Register!</a></span> 
+        </div> 		
+    </form> 
+    <p style="text-align: center;">or</p>
+         <hr>
+         <button type="button" class="btn" style="background-color:rgb(94, 128, 200); color: rgb(255, 255, 255);">Facebook</button> 
+         <button type="button" class="btn mt-12" style="margin-top: 4px ; background-color: rgb(255, 99, 71); color: rgb(255, 255, 255);">Google</button>         
+         <button type="button" class="btn mt-12" style="margin-top: 4px; background-color: rgba(165, 241, 43, 0.808); color: rgb(255, 255, 255);">EPAM LOGIN</button>
+</body> 
+  
+</html> 
